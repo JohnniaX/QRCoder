@@ -1,0 +1,58 @@
+body {
+    background-color:#CFCCCC;
+    margin: 15px;
+}
+
+#links {
+    text-align: center;
+}
+
+.link-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr {
+    margin: 3px;
+    display: block;
+}
+
+.qr img {
+    width: 20%;
+    transform: scale(1);
+    transition: all 1s ease 0s;
+    -webkit-transform: scale(1);
+    -webkit-transform: all 1s ease 0s;
+}
+
+.qr:hover img{
+    transform: scale(3);
+    transition: all 1s ease 0s;
+    -webkit-transform: scale(3);
+    -webkit-transform: all 1s ease 0s;
+}
+
+#buttons-single {
+    text-align: center;
+}
+
+#mode {
+    text-align: center;
+}
+
+#single-enter {
+    text-align: center;
+}
+
+#once-enter {
+    text-align: center;
+}
+
+#import-button {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
